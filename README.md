@@ -1,6 +1,8 @@
 <div align="center">
 
-# WiseupAI
+<img width="48" height="48" alt="play_store_48" align="center" src="https://github.com/user-attachments/assets/6ae8e73a-2a58-46b1-8d79-9481fbae330c" /> 
+ <h2> WiseupAI </h2>
+
 
 ### Your money, but smarter.
 
@@ -102,19 +104,8 @@ The receipt and manual-classification flows request structured JSON schemas, whi
 
 ## System architecture
 
-```mermaid
-flowchart LR
-    U[User] --> UI[React + TypeScript UI]
-    UI --> S[Screen and component layer]
-    S --> A[App state and interaction handlers]
-    A --> B[Budget monitor and analytics utilities]
-    A --> G[Gemini service]
-    A --> F[Firebase service]
-    G --> GV[Gemini multimodal and text generation]
-    F --> FA[Firebase Auth]
-    F --> FD[Firestore / local fallback]
-    B --> D[Dashboard, alerts, charts, goals]
-```
+<img width="1610" height="430" alt="image" src="https://github.com/user-attachments/assets/70be75ca-a107-4f6b-8a03-ed16c04e7d3b" />
+
 
 ### Repository structure
 
@@ -134,7 +125,7 @@ WiseupAI/
 ├── MVP.md                   # Detailed product and implementation specification
 ├── package.json             # Scripts and dependencies
 └── vite.config.ts           # Vite configuration
-
+```
 
 ## Technology stack
 
@@ -261,14 +252,14 @@ Then open a pull request against `main`.
 
 ## License
 
-No license file is currently included in the repository. Add an explicit license before distributing WiseupAI outside the project or accepting broad external contributions.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
 WiseupAI is built with React, Vite, TypeScript, Google Gemini, Firebase, Recharts, Motion, Lucide, and the open-source ecosystem around them.
 
 ## References
-
+```
 [1]: https://github.com/Jaysonar07/WiseupAI "WiseupAI repository"
 [2]: https://github.com/Jaysonar07/WiseupAI/blob/main/MVP.md "WiseupAI MVP specification"
 [3]: https://github.com/Jaysonar07/WiseupAI/blob/main/package.json "WiseupAI package manifest"
@@ -280,9 +271,8 @@ WiseupAI is built with React, Vite, TypeScript, Google Gemini, Firebase, Rechart
 [9]: https://firebase.google.com/ "Firebase"
 [10]: https://recharts.org/ "Recharts"
 [11]: https://motion.dev/ "Motion"
-
+```
 <div align="center">
-
-**WiseupAI — spend consciously, save confidently.**
-
+  <img width="48" height="48" alt="play_store_48" align="center" src="https://github.com/user-attachments/assets/6ae8e73a-2a58-46b1-8d79-9481fbae330c" /> 
+   <h3> <strong> WiseupAI — Financial Literacy Powered by AI</strong> </h3>
 </div>
