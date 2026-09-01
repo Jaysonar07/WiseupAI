@@ -134,7 +134,7 @@ WiseupAI/
 ├── MVP.md                   # Detailed product and implementation specification
 ├── package.json             # Scripts and dependencies
 └── vite.config.ts           # Vite configuration
-```
+
 
 ## Technology stack
 
