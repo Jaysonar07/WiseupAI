@@ -1,0 +1,11 @@
+{
+  "name": "WiseupAI",
+  "description": "Your premium bilingual AI financial companion. Features a unified swipeable Financial Intelligence Hub merging Expense Logging Sources (Scanned vs Manual), Monthly Spending Trends, and Calendar Spending Intensity Heatmaps with real-time budget pacing and CSV export.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
